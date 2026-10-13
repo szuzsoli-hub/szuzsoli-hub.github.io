@@ -3,10 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="favicon.png">
 <title>Bevásárlólista – Magyar Bevásárlóapp</title>
 <style>
   body { font-family: system-ui, sans-serif; max-width: 720px; margin: 32px auto; padding: 0 16px; color: #222; line-height: 1.55; }
   h1 { color: #c62828; margin: 0; }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand img { height: 56px; width: auto; }
   .sub { color: #666; margin: 2px 0 12px; }
   .lead { font-size: 18px; font-weight: bold; margin-bottom: 4px; }
   .btns { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 24px; }
@@ -26,7 +29,7 @@
 </style>
 </head>
 <body>
-  <h1>🛒 Bevásárlólista</h1>
+  <h1 class="brand"><img src="logo.png" alt="" width="48" height="56"> Bevásárlólista</h1>
   <p class="sub">Magyar Bevásárlóapp</p>
   <p class="lead">Az egyetlen magyar bevásárló app, ami mindent tud!</p>
   <p>Magyarországon készült, magyar vásárlóknak, magyar áruházakra optimalizálva. Nincs több elfelejtett tétel, lekésett akció vagy elveszett hűségkártya!</p>
